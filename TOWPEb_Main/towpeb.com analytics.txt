@@ -1,0 +1,53 @@
+TOWPEB.COM
+ID de seguimiento
+UA-70622234-2
+Estado
+
+Seguimiento del sitio web
+Este es el código de seguimiento de Universal Analytics para esta propiedad.
+Cópielo y péguelo en todas las páginas web que quiera supervisar a fin de obtener todas las ventajas de Universal Analytics para la propiedad.
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70622234-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+Implementación PHP OPCIONAL
+Use el código de arriba para crear un archivo con el nombre analyticstracking.php e inclúyalo en cada página de la plantilla PHP.
+Agregue la línea siguiente a cada página de la plantilla justo después de la etiqueta <body> de apertura:
+
+<?php include_once("analyticstracking.php") ?>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TOWPEB.XYZ
+ID de seguimiento
+UA-70622234-3
+Estado
+
+Seguimiento del sitio web
+Este es el código de seguimiento de Universal Analytics para esta propiedad.
+Cópielo y péguelo en todas las páginas web que quiera supervisar a fin de obtener todas las ventajas de Universal Analytics para la propiedad.
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70622234-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+Implementación PHP OPCIONAL
+Use el código de arriba para crear un archivo con el nombre analyticstracking.php e inclúyalo en cada página de la plantilla PHP.
+Agregue la línea siguiente a cada página de la plantilla justo después de la etiqueta <body> de apertura:
+
+<?php include_once("analyticstracking.php") ?>

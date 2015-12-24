@@ -14,7 +14,7 @@ def home(request):
             name = request.POST['inputSubject']
             message = request.POST['message']
             send_mail('An email from ' + name, message, email,
-                      ['info@towpeb.com'], fail_silently=False)
+                      ['carlosalejandro@towpeb.com'], fail_silently=False)
             return render(request, 'index.html', {'OK': True})
         except KeyError:
             return render(request, 'index.html', {'Fail': True})

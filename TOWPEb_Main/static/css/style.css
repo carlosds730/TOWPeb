@@ -638,7 +638,8 @@ more media queries
 }
 
 .logo_img{
-    width: 20%;
+    max-width: 20%;
+    min-width: 230px;
 }
 
 .a_logo{
